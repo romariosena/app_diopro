@@ -96,11 +96,12 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             const Text(
-              'Quantos curtos você já realizou?',
+              'Quantos cursos você já realizou:',
+              style: TextStyle(color: Colors.blue, fontSize: 15),
             ),
             Text(
               '$_counter',
-              style: Theme.of(context).textTheme.headline4,
+              style: Theme.of(context).textTheme.headline1,
             ),
           ],
         ),
